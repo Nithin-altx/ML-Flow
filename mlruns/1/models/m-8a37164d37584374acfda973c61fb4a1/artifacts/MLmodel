@@ -1,0 +1,23 @@
+artifact_path: file:C:/Users/abhia/OneDrive/Desktop/MLOps/ML-Flow/mlruns/1/models/m-8a37164d37584374acfda973c61fb4a1/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.13.9
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.8.0
+    skops_trusted_types: null
+mlflow_version: 3.9.0
+model_id: m-8a37164d37584374acfda973c61fb4a1
+model_size_bytes: 15566
+model_uuid: m-8a37164d37584374acfda973c61fb4a1
+prompts: null
+run_id: 02656656d0934fa182bb7aedacd9f31d
+utc_time_created: '2026-02-12 10:30:20.752936'
